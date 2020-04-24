@@ -13,6 +13,7 @@ const routes: RouteConfig[] = [
   { path: '/about', component: About },
 ];
 const router = new Router({
+  mode: 'history',
   routes,
 });
 
